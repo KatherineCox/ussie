@@ -1,0 +1,30 @@
+---
+title: "ussie"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{ussie}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ussie)
+library(dplyr)
+```
+
+The goal of ussie is to help you work with European Football League data. It uses data from the engsoccerdata package.
+
+We can create a matches tibble using raw data from engsoccerdata:
+
+```{r matches_italy}
+matches_italy <- uss_make_matches(engsoccerdata::italy, "Italy")
+glimpse(matches_italy)
+```
+
