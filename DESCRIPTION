@@ -3,8 +3,8 @@ Title: Interface for European Football League Data - rstudioconf
 Version: 0.0.0.9000
 Authors@R: 
     person("Katherine", "Cox", , "katie.el.cox@gmail.com", role = c("aut", "cre"))
-Description: Demo package from rstudio::conf(2022) workshop Building Tidy Tools
-    Standardizes data from the engsoccerdata packages.
+Description: Demo package from rstudio::conf(2022) workshop Building Tidy Tools.
+    Standardizes data from the engsoccerdata package.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
