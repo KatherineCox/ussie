@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   ussie: ussie.html
-last_built: 2022-07-25T20:29Z
+last_built: 2022-07-25T20:38Z
 urls:
   reference: https://katherinecox.github.io/ussie/reference
   article: https://katherinecox.github.io/ussie/articles
