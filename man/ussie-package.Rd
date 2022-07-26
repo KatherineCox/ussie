@@ -12,6 +12,7 @@ Demo package from rstudio::conf(2022) workshop Building Tidy Tools. Standardizes
 Useful links:
 \itemize{
   \item \url{https://github.com/KatherineCox/ussie}
+  \item \url{https://katherinecox.github.io/ussie/}
   \item Report bugs at \url{https://github.com/KatherineCox/ussie/issues}
 }
 
