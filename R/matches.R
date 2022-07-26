@@ -17,7 +17,11 @@ uss_make_matches <- function(data_engsoc, country) {
     data_engsoc |>
     tibble::as_tibble() |>
     dplyr::transmute(
-      country = as.character(country),
+      # in most cases it would be fine to leave this as `country`
+      # but `.env$country` handles the case where the dataframe from data_engsoc
+      # contains an internal column named `country`
+      country = as.character(.env$country),
+
       tier = factor(.data$tier, levels = c("1", "2", "3", "4")),
       season = as.integer(.data$Season),
       date = as.Date(.data$Date),
